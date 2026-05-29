@@ -17,8 +17,8 @@ I båda fallen tränar ni på samma grundide:
 4. Commita och pusha
 5. Skapa en pull request
 6. Få feedback
-7. Merga in ändringen i `main`
-8. Hämta senaste versionen av `main`
+7. Merga in ändringen i `master`
+8. Hämta senaste versionen av `master`
 
 ## Projektide
 
@@ -53,7 +53,7 @@ cd gitcolab
 Om du redan har klonat projektet, börja med att hämta senaste versionen:
 
 ```bash
-git checkout main
+git checkout master
 git pull
 ```
 
@@ -75,7 +75,7 @@ Välj en liten uppgift. Hellre en liten färdig ändring än en stor halvfärdig
 
 ### 2. Skapa branch från issuen
 
-God sed att göra en git pull i main innan man skapar en ny branch för att alltid utgå från den senaste koden. 
+God sed att göra en git pull i master innan man skapar en ny branch för att alltid utgå från den senaste koden. 
 
 I listan över issues finns en högerpil bredvid varje issue.
 
@@ -121,14 +121,14 @@ Closes #3
 
 ### 6. Låt någon gå igenom den innan merge
 
-Någon i teamet kan gå igenom pull requests för att se om koden verkar bra, innan de mergas in i main.
+Någon i teamet kan gå igenom pull requests för att se om koden verkar bra, innan de mergas in i master.
 
 ### 7. Efter merge
 
-När din PR är mergad, gå tillbaka till `main` och hämta senaste versionen:
+När din PR är mergad, gå tillbaka till `master` och hämta senaste versionen:
 
 ```bash
-git checkout main
+git checkout master
 git pull
 ```
 
@@ -235,10 +235,10 @@ Closes #3
 
 ### 7. Efter merge
 
-När din PR är mergad, gå tillbaka till `main` och hämta senaste versionen:
+När din PR är mergad, gå tillbaka till `master` och hämta senaste versionen:
 
 ```bash
-git checkout main
+git checkout master
 git pull
 ```
 
@@ -347,7 +347,7 @@ Redigera filen så att den ser rätt ut, och commita sedan lösningen.
 - Skriv tydliga commit-meddelanden
 - Skapa PR även för små ändringar
 - Läs diffen innan du ber om review (kontrollera att PR:en bara innehåller de ändringar man vill, t.ex. i source control att det bara är de filer man vill ha med).
-- Uppdatera `main` efter att din PR har mergats
+- Uppdatera `master` efter att din PR har mergats
 
 ## Målet med övningen
 
