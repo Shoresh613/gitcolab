@@ -242,7 +242,7 @@ git checkout master
 git pull
 ```
 
-Sedan kan du välja ett nytt issue och skapa en ny branch.
+Sedan kan du välja en ny issue och skapa en ny branch.
 
 ## Förslag på issues
 
