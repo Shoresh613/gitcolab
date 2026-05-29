@@ -346,7 +346,7 @@ Redigera filen så att den ser rätt ut, och commita sedan lösningen.
 - Testa innan du pushar
 - Skriv tydliga commit-meddelanden
 - Skapa PR även för små ändringar
-- Läs diffen innan du ber om review
+- Läs diffen innan du ber om review (kontrollera att PR:en bara innehåller de ändringar man vill, t.ex. i source control att det bara är de filer man vill ha med).
 - Uppdatera `main` efter att din PR har mergats
 
 ## Målet med övningen
